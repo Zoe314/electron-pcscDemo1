@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe E:\Program Files (x86)\Yarn\bin\yarn.js add pcscd
+
+PATH: 
+  E:\Program Files (x86)\cmd\vendor\conemu-maximus5\ConEmu\Scripts;E:\Program Files (x86)\cmd\vendor\conemu-maximus5;E:\Program Files (x86)\cmd\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;E:\Python27\;E:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files (x86)\Yarn\bin\;%\;E:\Program Files (x86)\Android\android-sdk\tools;E:\Program Files (x86)\Android\android-sdk\platform-tools;%E:\Program Files\Java\jdk1.8.0_60\bin;E:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;E:\Program Files (x86)\Git\cmd;E:\Program Files\bin;C:\Users\zoe\AppData\Local\Microsoft\WindowsApps;C:\Users\zoe\AppData\Local\Yarn\.bin;E:\Program Files (x86)\gradle-4.5\bin;C:\Users\zoe\AppData\Roaming\npm;E:\Program Files (x86)\cmd;e:\Users\zoe\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "pcscdemo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^4.0.5"
+    },
+    "dependencies": {
+      "pcsclite": "^0.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://registry.npmjs.org/pcscd: Not found
+      at Request.params.callback [as _callback] (E:\Program Files (x86)\Yarn\lib\util\request-manager.js:313:18)
+      at Request.self.callback (E:\Program Files (x86)\Yarn\node_modules\request\request.js:186:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (E:\Program Files (x86)\Yarn\node_modules\request\request.js:1081:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (E:\Program Files (x86)\Yarn\node_modules\request\request.js:1001:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)

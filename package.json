@@ -1,0 +1,23 @@
+{
+  "name": "pcscdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.5",
+    "electron-builder": "^20.38.5",
+    "electron-rebuild": "^1.8.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "pcsclite": "^0.6.0"
+  }
+}
